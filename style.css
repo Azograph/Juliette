@@ -1,0 +1,183 @@
+
+/* GENERAL */
+body {
+ font-family:  'Raleway', sans-serif;
+margin: 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size:  4em;
+  margin: 0;
+}
+
+h2 {
+  font-size:  2.3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family:  'Nunito', sans-serif;
+    font-size: 1.3em;
+}
+
+section {
+     padding:  6em 12em 6em 12em ;
+}
+
+
+/* INTRO  */
+p , .intro {
+}
+
+#intro .container {
+  width: 45em;
+  margin: 1em;
+}
+
+#intro .container > h2 {
+  margin-top: 8em;
+}
+
+#intro {
+  background-color: #fe4c33;
+  color: #FFF9E8;
+  display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+/* BUTTON */
+#plus {
+  background-color:  #fe4c33;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+background-color: #fe4c33;
+border-color:  #FFF9E8;
+color: #FFF9E8;
+border-radius: 40px;
+border: 3px solid;
+padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+}
+
+button:hover {
+  background-color:  #FFF9E8;
+  border-color:  #FFF9E8;
+  color: #fe4c33;
+}
+
+
+/* SECTION UN  > Qui je suis ? */
+#un {
+    background-color: #FFF9E8;
+    color: #fe4c33;
+    display: flex;
+      justify-content: center;
+}
+
+#un .container {
+        width: 60em;
+        text-align: center;
+}
+
+ #un .italique {
+   font-style: italic;
+ }
+
+/* SECTION DEUX  > D'où je viens */
+#deux{
+    background-color: #4AE1BA;
+    color: #FFF9E8;
+}
+
+#deux .container {
+  width: 60em;
+  padding: 1em;
+  margin: 1em;
+}
+
+#deux img {
+  width: 5em;
+  height: 5em;
+}
+
+#deux h3 {
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content:space-around;
+}
+
+.bloc {
+  display: flex;
+  justify-content:space-around;
+}
+
+
+
+/* SECTION TROIS > Un passe temp */
+#trois{
+    background-color: #984AE1;
+    color: #FFF9E8;
+    display: flex;
+    justify-content: space-around;
+}
+
+#trois img {
+  width: 20em;
+  height: 20em;
+  padding-right: 3em;
+}
+
+#trois .container {
+  width: 50em;
+}
+
+/* SECTION QUATRE */
+#quatre{
+    background-color: #F1B11E;
+    color: #FFF9E8;
+    display: flex;
+    justify-content: center;
+}
+
+#quatre .container {
+    width: 60em;
+    text-align: center;
+}
+
+#quatre p {
+  text-align: left;
+}
+
+/* FOOTER  */
+
+footer {
+  background-color:  #fe4c33;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+footer a {
+  color: #FFF9E8;
+}
+
